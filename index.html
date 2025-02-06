@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 4th Sem PYQ</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+
+        h1 {
+            margin-top: -10px;
+            color: #ffffff;
+        }
+
+        .subject-section {
+            margin-top: 20px;
+            padding: 10px;
+            background: #292929;
+            border-radius: 5px;
+        }
+
+        .subject-toggle {
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffcc00;
+        }
+
+        .papers {
+            list-style: none;
+            padding: 0;
+            display: none;
+        }
+
+        .papers li {
+            background: #333;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .papers a {
+            text-decoration: none;
+            color: white;
+            background: #007BFF;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .papers a:hover {
+            background: #0056b3;
+        }
+
+        .view-btn {
+            text-decoration: none;
+            color: white;
+            background: #28a745;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        .view-btn:hover {
+            background: #218838;
+        }
+
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #1e1e1e;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        #sem {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffffff;
+            margin: -10px 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                margin: 0;
+            }
+            #sem{
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Previous Year Question Papers</h1>
+        <p id="sem">CSE (4<sup>th</sup> Semester)</p>
+
+        <div id="papers-list">
+            <div class="subject-section" data-subject="Mathematics">
+                <h2 class="subject-toggle">Discrete Mathematics</h2>
+                <ul class="papers">
+                    <li data-year="2023" data-code="MATH101">
+                        <span>2023 (100404)</span>
+                        <a href="https://drive.google.com/file/d/11Ka5njZOTRJt7dP5tZ8EzuZf8re6BdkW/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2023" data-code="MATH101">
+                        <span>2022 (100404)</span>
+                        <a href="https://drive.google.com/file/d/11NqrlPW6KMocjzCHPG9bDF3LaTzKo634/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <!-- <li data-year="2023" data-code="MATH101">
+                        <span>2021 (100404)</span>
+                        <a href="" target="_blank" class="view-btn">View</a>
+                    </li>
+                    <li data-year="2023" data-code="MATH101">
+                        <span>2020 (100404)</span>
+                        <a href="" target="_blank" class="view-btn">View</a>
+                    </li> -->
+                    <li data-year="2023" data-code="MATH101">
+                        <span>2019 (100404)</span>
+                        <a href="https://drive.google.com/file/d/16wbgCF85FtHQK5r3RDC5aMxYspJR6teX/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2023" data-code="MATH101">
+                        <span>2018 (100404)</span>
+                        <a href="https://drive.google.com/file/d/16tQ4OCvDCJ5FmwFNScunQ-_vNB1shUHs/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="subject-section" data-subject="Physics">
+                <h2 class="subject-toggle">Computer Organisation and Architecture</h2>
+                <ul class="papers">
+                    <li data-year="2023" data-code="PHYS102">
+                        <span>2023 (105401)</span>
+                        <a href="https://drive.google.com/file/d/11Pe3TOPEea2MdpDASWHxkyJ3ucrI_nfV/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2023" data-code="PHYS102">
+                        <span>2022 (105401)</span>
+                        <a href="https://drive.google.com/file/d/11O265B8tAJBX5eWUa-93Qb2f3LLo8JEf/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2023" data-code="PHYS102">
+                        <span>2019 (105401)</span>
+                        <a href="https://drive.google.com/file/d/16oFao_uxJ_JHv0oc_nW8ete6KMbt35Gi/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2023" data-code="PHYS102">
+                        <span>2018 (105401)</span>
+                        <a href="https://drive.google.com/file/d/16owoxRXfdFp4sY8mW_ffMnQax-hSydAw/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2023" data-code="PHYS102">
+                        <span>2017 (105401)</span>
+                        <a href="https://drive.google.com/file/d/16piHOWNoWyObwTrwvd67q4Ip-P2zOd2f/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="subject-section" data-subject="Chemistry">
+                <h2 class="subject-toggle">Operating System</h2>
+                <ul class="papers">
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2023 (105403)</span>
+                        <a href="https://drive.google.com/file/d/11eLIif2qFx7UK8hUSh7YSgnZmBsUX-38/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2022 (105403)</span>
+                        <a href="https://drive.google.com/file/d/11mEArRYYnYjke9dKCdX37QOC8KaH3T5D/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="subject-section" data-subject="Chemistry">
+                <h2 class="subject-toggle">Design & Analysis of Algorithm</h2>
+                <ul class="papers">
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2023 (105402)</span>
+                        <a href="https://drive.google.com/file/d/11Ri0hkm5jI0h0pAEnpXobFfhYjojtLVt/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2022 (105402)</span>
+                        <a href="https://drive.google.com/file/d/11XSei076bhwJYcFOlwarKFkEIzU3UGxk/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2020 (105402)</span>
+                        <a href="https://drive.google.com/file/d/16dPTsq-XsS3Af0EOwtZ9EMjefIFXxNmH/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2019 (105402)</span>
+                        <a href="https://drive.google.com/file/d/16aZFKPqmiBvTbPM4VgezZtMchOnKuz7j/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2018 (105402)</span>
+                        <a href="https://drive.google.com/file/d/16bCue0xuzVlaAPI5qkOWZNY4_fhPfNLC/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2017 (105402)</span>
+                        <a href="https://drive.google.com/file/d/16kuXycIfuly4O-fK8OktIXwl6KUYXD09/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <!-- <li data-year="2022" data-code="CHEM101">
+                        <span>2016 (105402)</span>
+                        <a href="" target="_blank" class="view-btn">View</a>
+                    </li> -->
+                </ul>
+            </div>
+
+            <div class="subject-section" data-subject="Chemistry">
+                <h2 class="subject-toggle">Digital Electronics</h2>
+                <ul class="papers">
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2023 (100403)</span>
+                        <a href="https://drive.google.com/file/d/11pWB1EkaR4o80x0j79--B1Dfs35yX6o0/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2022 (100403)</span>
+                        <a href="https://drive.google.com/file/d/11njZkmRF4Cggj4tw7T8U1kZoJ0cv4CNp/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="subject-section" data-subject="Chemistry">
+                <h2 class="subject-toggle">Human Resources Development and Organisational Behaviour</h2>
+                <ul class="papers">
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2023 (100407)</span>
+                        <a href="https://drive.google.com/file/d/16DnSOmdceCio2ZOhFJD7D1Gtwm-T--6R/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <li data-year="2022" data-code="CHEM101">
+                        <span>2022 (100407)</span>
+                        <a href="https://drive.google.com/file/d/16E-B9mMgjdMhwAlShGao1ZT2y36ot_tE/view" target="_blank"
+                            class="view-btn">View</a>
+                    </li>
+                    <!-- <li data-year="2022" data-code="CHEM101">
+                        <span>2022 (100407)</span>
+                        <a href="" target="_blank" class="view-btn">View</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            Follow <a href="https://www.linkedin.com/in/anikesh-roy" target="_blank">Anikesh Roy</a> on Linkedin
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
